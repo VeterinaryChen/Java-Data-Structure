@@ -1,0 +1,17 @@
+package com.map;
+
+public interface Imap<K,V> {
+    void add(K key,V value);
+
+    V remove(K key);
+
+    boolean contains(K key);
+
+    void Set(K key , V value);
+
+    V get(K key);
+
+    int getSize();
+
+    boolean isEmpty();
+}
